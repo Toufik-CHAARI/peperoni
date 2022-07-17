@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-@%3*+k2t4)!aw=0z**-872pcuurq5si_$wsixe=c*t2hwg15^7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['peperoni.herokuapp.com','127.0.0.1:8000']
 
 
 # Application definition
@@ -80,12 +80,12 @@ DATABASES = {
         #'ENGINE': 'django.db.backends.sqlite3',
         # }
 
-           'default': {
+        'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
+        'NAME': 'd27guoe816l9ev',
+        'USER': 'cqartydvitvggy',
+        'PASSWORD': 'cc2d92ab39463fed908d210bb7e5faa13e1714ede0921118dcc88c21197f8e67',
+        'HOST': 'ec2-34-247-172-149.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
